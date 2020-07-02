@@ -1,16 +1,11 @@
-# python-automations
-```who likes to do those useless ,old and time consuming tasks manually when you can automate them.``` 
+# Phone-Number and E-mail Extractor
+Say you have the boring task of finding every phone number and email address in a long web page or document. If you manually scroll through the page, you might end up searching for a long time. But if you had a pro- gram that could search the text in your clipboard for phone numbers and email addresses, you could simply press ctrl-A to select all the text, press ctrl-c to copy it to the clipboard, and then run your program. It could replace the text on the clipboard with just the phone numbers and email addresses it finds. this porgram do just that 
 
-in this repostiory I would be keeping all my python automations that will make some tedious daily taska easier.
+### additional packages 📝
+- pyperclip
 
-## language used
-- Python
-
-### NOTE 🧐
-all the projects that will grow too large to become stand alone projects will be added to another new repository accordingly
-
-### But How to run them ? 🤨
-- most of the stuff will be plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
-- whenever a project will use a new library then I will get you know about it.
-
+#### But how do I install additonal packages? 🤨
+- make sure you have python installed on your system
+- go to command line and type ```pip install <library name>```
+- for further information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)
 
