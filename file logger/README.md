@@ -1,6 +1,8 @@
 # File logger
 when this script is running, it will observe and keep an eye on changes made in the current directory and will log it in consloe
 
+### screen shot
+![alt text](https://github.com/Arsenic-ATG/python-automations/blob/master/file%20logger/screenshot/Screenshot%202020-07-08%20at%201.25.44%20PM.png?raw=true)
 ### Additional packages 📝
 - pyperclip
 
