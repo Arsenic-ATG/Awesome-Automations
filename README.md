@@ -11,6 +11,7 @@ all the projects that will grow too large to become stand alone projects will be
 
 ### But How to run them ? 🤨
 - most of the stuff will be plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
+- if you don't have python on your machine then you can download it from [here](https://www.python.org/downloads/)
 - whenever a project will use a new library then I will get you know about it.
 
 
