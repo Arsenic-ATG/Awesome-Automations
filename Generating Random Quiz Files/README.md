@@ -12,7 +12,7 @@ Here is what the program does:
 ### screen shots
 
 - one of the question paper generated 
-![alt text](https://github.com/Arsenic-ATG/python-automations/blob/master/Generating%20Random%20Quiz%20Files/screen%20shots/Screenshot%202020-07-15%20at%201.44.07%20PM.png)
+![alt text](https://github.com/Arsenic-ATG/python-automations/blob/master/Generating%20Random%20Quiz%20Files/screen%20shots/Screenshot%202020-07-16%20at%202.41.05%20PM.png)
 
 - answer key would look like this
 ![alt text](https://github.com/Arsenic-ATG/python-automations/blob/master/Generating%20Random%20Quiz%20Files/screen%20shots/Screenshot%202020-07-15%20at%201.44.34%20PM.png)
