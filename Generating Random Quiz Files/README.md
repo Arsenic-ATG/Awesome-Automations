@@ -9,8 +9,9 @@ Here is what the program does:
 4) Writes the quizzes to **n** text files
 5) Writes the answer keys to **n** text files.
 
-### screen shots
-
+### screen shots 
+| **NOTE:** *these screenshots were taken in macOs default text editor in dark mode. this script generates text files so result may vary according to the text editor you are using* |
+| --- |
 - one of the question paper generated 
 ![alt text](https://github.com/Arsenic-ATG/python-automations/blob/master/Generating%20Random%20Quiz%20Files/screen%20shots/Screenshot%202020-07-16%20at%202.41.05%20PM.png)
 
