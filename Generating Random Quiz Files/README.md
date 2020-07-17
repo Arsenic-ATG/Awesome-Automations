@@ -14,7 +14,7 @@ Here is what the program does:
 - one of the question paper generated 
 ![alt text](https://github.com/Arsenic-ATG/python-automations/blob/master/Generating%20Random%20Quiz%20Files/screen%20shots/Screenshot%202020-07-16%20at%202.41.05%20PM.png)
 
-- answer key would look like this
+- answer key would look like this **(NOTE: this is not the answer key of above question paper)**
 ![alt text](https://github.com/Arsenic-ATG/python-automations/blob/master/Generating%20Random%20Quiz%20Files/screen%20shots/Screenshot%202020-07-15%20at%201.44.34%20PM.png)
 
 - every folder with unique name
