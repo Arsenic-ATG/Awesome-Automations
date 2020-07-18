@@ -3,8 +3,9 @@ when this script is running, it will observe and keep an eye on changes made in 
 
 ### screen shot
 ![alt text](https://github.com/Arsenic-ATG/python-automations/blob/master/file%20logger/screenshot/Screenshot%202020-07-08%20at%201.25.44%20PM.png?raw=true)
+
 ### Additional packages 📝
-- pyperclip
+- watchdogs
 
 #### But how do I install additonal packages? 🤨
 - make sure you have python installed on your system
