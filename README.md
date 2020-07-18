@@ -13,7 +13,7 @@ in this repostiory I would be keeping all my python automations that will make s
 ## language used
 - Python 🐍
 
-### NOTE 🧐
+### NOTE
 all the projects that will grow too large to become stand alone projects will be added to another new repository accordingly
 
 ### But How to run them ? 🤨
