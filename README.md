@@ -1,6 +1,10 @@
+<p align="center">
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--_RATvLqD--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://cdn-images-1.medium.com/max/1600/1%2A1hT23VteSYhRbOaUtCcuEg.gif" width="700" height="300" />
+</p>
 
-# python-automations
+  <h1 align="center">Python-Automations</h1>
+  
+---
 
 > who likes to do those useless ,old and time consuming tasks manually when you can automate them.
 
