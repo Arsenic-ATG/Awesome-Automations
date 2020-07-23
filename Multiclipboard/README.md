@@ -7,10 +7,10 @@ The program will save each piece of clipboard text under a keyword. For example,
 
 Here’s what the program does:
 
- - [ ] The command line argument for the keyword is checked
+ - [x] The command line argument for the keyword is checked
  
- - [ ] If the argument is save, then the clipboard contents are saved to the key word
+ - [x] If the argument is save, then the clipboard contents are saved to the key word
  
- - [ ] If the argument is list, then all the keywords are copied to the clipboard
+ - [x] If the argument is list, then all the keywords are copied to the clipboard
  
- - [ ] Otherwise, the text for the keyword is copied to the keyboard
+ - [x] Otherwise, the text for the keyword is copied to the keyboard
