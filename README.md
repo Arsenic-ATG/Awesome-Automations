@@ -13,9 +13,10 @@ in this repostiory I would be keeping all my python automations that will make s
 ## language used
 - Python 🐍
 
-## INDEX
+## Some Notable Projects: 🧐
 1. [Multiclipboard](https://github.com/Arsenic-ATG/python-automations/tree/master/Multiclipboard)
 2. [Phone-number and E-mail extractor](https://github.com/Arsenic-ATG/python-automations/tree/master/Phone%20%26%20Email%20Extrator)
+
 ### NOTE
 all the projects that will grow too large to become stand alone projects will be added to another new repository accordingly
 
