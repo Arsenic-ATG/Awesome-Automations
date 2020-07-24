@@ -16,6 +16,7 @@ in this repostiory I would be keeping all my python automations that will make s
 ## Some Notable Projects: 🧐
 1. [Multiclipboard](https://github.com/Arsenic-ATG/python-automations/tree/master/Multiclipboard)
 2. [Phone-number and E-mail extractor](https://github.com/Arsenic-ATG/python-automations/tree/master/Phone%20%26%20Email%20Extrator)
+3. [Random Quiz Generator](https://github.com/Arsenic-ATG/python-automations/tree/master/Generating%20Random%20Quiz%20Files)
 
 ### NOTE
 all the projects that will grow too large to become stand alone projects will be added to another new repository accordingly
