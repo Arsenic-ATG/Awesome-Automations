@@ -25,7 +25,8 @@ for amerFilename in os.listdir('.'):
 	year_part = mo.group(6)
 	after_path = mo.group(8)
 
-	# TODO: Form the European-style filename.
+	# Form the European-style filename.
+	euroFilename = before_part + day_part + '-' + month_part + '-' + year_part + after_path
 
 	# TODO: Get the full, absolute file paths.
 
