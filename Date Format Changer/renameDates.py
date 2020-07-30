@@ -10,12 +10,18 @@ datePattern = re.compile(r"""^(.*?) # all text before the date
 	(.*?)$							# all text after the date
 	""",re.VERBOSE)
 
-# TODO: Loop over the files in the working directory. # TODO: Skip files without a date.
+# Loop over the files in the working directory. 
+for amerFilename in os.listdir('.'):
+	mo = datePattern.search(amerFilename)
+	
+	#  Skip files without a date.
+	if mo == none:
+		continue
 
-# TODO: Get the different parts of the filename.
+	# TODO: Get the different parts of the filename.
 
-# TODO: Form the European-style filename.
+	# TODO: Form the European-style filename.
 
-# TODO: Get the full, absolute file paths.
+	# TODO: Get the full, absolute file paths.
 
-# TODO: Rename the files.
+	# TODO: Rename the files.
