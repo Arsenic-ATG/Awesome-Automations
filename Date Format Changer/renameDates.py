@@ -35,4 +35,4 @@ for amerFilename in os.listdir('.'):
 
 	# Rename the files.
 	print('Renaming "%s" to "%s"...' % (amerFilename, euroFilename))
-	# shutil.move(amerFilename,euroFilename);  # better to test it first
+	# shutil.move(amerFilename,euroFilename);  # uncomment after testing
