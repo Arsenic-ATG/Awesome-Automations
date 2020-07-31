@@ -26,3 +26,9 @@ all the projects that will grow too large to become stand alone projects will be
 - if you don't have python on your machine then you can download it from [here](https://www.python.org/downloads/)
 - further instructions are specific for specifc projects and can be seen in their READMEs 
 
+## Have got an boring task to automate ? 😃
+- Feel free to open an **issue** regarding the idea about automation
+- If you have some automations to share then go ahead and open an PR(pull request) {But first discuss it through **issue** section}
+
+### Source
+most of the ideas of project are from a book names 'Automating boring stuff with python By Al Sweigart' but it is open to your automation ideas also.
