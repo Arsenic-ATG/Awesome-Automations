@@ -19,7 +19,12 @@ in this repostiory I would be keeping all my python automations that will make s
 3. [Random Quiz Generator](https://github.com/Arsenic-ATG/python-automations/tree/master/Generating%20Random%20Quiz%20Files)
 
 ### NOTE
-all the projects that will grow too large to become stand alone projects will be added to another new repository accordingly
+- All the projects that will grow too large to become stand alone projects will be added to another new repository accordingly ( you can find then using the links provided bellow )
+- 🌐 == web scrapping projects
+
+
+## List of Automations with their own repository
+1. 🌐 [Map-It](https://github.com/Arsenic-ATG/Map-It)
 
 ### But How to run them ? 🤨
 - most of the stuff will be plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
