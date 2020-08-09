@@ -9,10 +9,10 @@ Say you have the boring task of finding every phone number and email address in 
 - if nothing is found then messege will be shown on **console** accordingly
 
 ### Additional packages 📝
-- pyperclip
+- _pyperclip_
 
 #### But how do I install additonal packages? 🤨
-- make sure you have python installed on your system
-- go to command line and type ```pip install <library name>```
-- for further information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)
+- make sure you have python package manager (**pip**) installed on your system
+- go to command line and type ```pip install <library name>``` { _pip3_ on mac }
+- for detailed information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)
 
