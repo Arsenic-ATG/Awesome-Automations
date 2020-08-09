@@ -25,7 +25,7 @@ in this repostiory I would be keeping all my python automations that will make s
 
 ## List of more cool Automations with their own repository
 1. 🌐 [Map-It](https://github.com/Arsenic-ATG/Map-It)
-2. 🌐 [“i’m feeling lucky” google Search](https://github.com/Arsenic-ATG/I-am-Feeling-Lucky) { 👷‍♂️under construction }
+2. 🌐 [“i’m feeling lucky” google Search](https://github.com/Arsenic-ATG/I-am-Feeling-Lucky)
 
 ### But How to run them ? 🤨
 - most of the stuff will be plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
