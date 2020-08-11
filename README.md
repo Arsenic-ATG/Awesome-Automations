@@ -8,7 +8,7 @@
 
 > who likes to do those useless ,old and time consuming tasks manually when you can automate them.
 
-in this repostiory I would be keeping all my python automations that will make some tedious daily tasks easier and faster.
+This repository is full of python automations that will make some tedious daily tasks easier and faster.
 
 ## language used
 - Python 🐍
