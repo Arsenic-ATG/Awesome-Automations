@@ -26,7 +26,7 @@ This repository is full of python automations that will make some tedious daily 
 ## List of more cool Automations with their own repository
 1. 🌐 [Map-It](https://github.com/Arsenic-ATG/Map-It)
 2. 🌐 [“i’m feeling lucky” google Search](https://github.com/Arsenic-ATG/I-am-Feeling-Lucky)
-3. 🌐 [download all xkcd-comics](https://github.com/Arsenic-ATG/xkcd-comics) { 👷‍♂️Under construction }
+3. 🌐 [Download all xkcd-comics](https://github.com/Arsenic-ATG/xkcd-comics) { 👷‍♂️Under construction }
 ### But How to run them ? 🤨
 - most of the stuff will be plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
 - if you don't have python on your machine then you can download it from [here](https://www.python.org/downloads/)
