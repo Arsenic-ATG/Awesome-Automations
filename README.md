@@ -38,3 +38,10 @@ This repository is full of python automations that will make some tedious daily 
 
 ### Source
 most of the ideas of project are from a book namely 'Automating boring stuff with python By Al Sweigart' but it is open to your automation ideas also.
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2015 © <a href="https://github.com/Arsenic-ATG" target="_blank">Ankur Saini</a>.
