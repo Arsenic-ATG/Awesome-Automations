@@ -20,7 +20,7 @@ This repository is full of python automations that will make some tedious daily 
 
 ### NOTE
 - All the projects that will grow too large to become stand alone projects will be added to another new repository accordingly ( you can find then using the links provided bellow )
-- 🌐 == web scrapping projects
+- 🌐 == include web scrapping
 
 
 ## List of more cool Automations with their own repository
