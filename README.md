@@ -6,7 +6,7 @@
   
 ---
 
-> who likes to do those useless ,old and time consuming tasks manually when you can automate them.
+> Who likes to do those useless ,old and time consuming tasks manually when you can automate them.
 
 This repository is full of python automations that will make some tedious daily tasks easier and faster.
 
@@ -28,16 +28,16 @@ This repository is full of python automations that will make some tedious daily 
 2. 🌐 [“i’m feeling lucky” google Search](https://github.com/Arsenic-ATG/I-am-Feeling-Lucky)
 3. 🌐 [Download all xkcd-comics](https://github.com/Arsenic-ATG/xkcd-comics)
 ### But How to run them ? 🤨
-- most of the stuff will be plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
-- if you don't have python on your machine then you can download it from [here](https://www.python.org/downloads/)
-- further instructions are specific for specifc projects and can be seen in their READMEs 
+- Most of the stuff will be plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
+- If you don't have python on your machine then you can download it from [here](https://www.python.org/downloads/)
+- Further instructions are specific for specifc projects and can be seen in their READMEs 
 
 ## Have got an boring task to automate ? 😃
 - Feel free to open an **issue** regarding the idea about automation
 - If you have some automations to share then go ahead and open an PR(pull request) {But first discuss it through **issue** section}
 
 ### Source
-most of the ideas of project are from a book namely 'Automating boring stuff with python By Al Sweigart' but it is open to your automation ideas also.
+Most of the ideas of project are from a book namely 'Automating boring stuff with python By Al Sweigart' but it is open to your automation ideas also.
 
 ## License
 
