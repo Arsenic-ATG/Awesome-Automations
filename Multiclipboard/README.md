@@ -18,9 +18,9 @@ Here’s what the program does:
 
 ## But how to use this program ? 🧐
 
-- the program has to run with some command line arguments with it.
+- The program has to run with some command line arguments with it.
 
-- the following is the list of keywords supported by the program:
+- The following is the list of keywords supported by the program:
   - ```py mcb.py save <keyword>```: when you run ```py mcb.py save spam```, the current contents of the clipboard will be saved with the keyword **spam**
   - ```py mcb.pyw <keyword>``` : to load the **saved** keyword on the clipboard (for example *spam* in this case) just use ```py mcb.pyw spam```
   - ```py mcb.pyw list``` : if the user forgets what keywords they have, they can run ```py mcb.pyw list``` to copy a list of all keywords to the clipboard
