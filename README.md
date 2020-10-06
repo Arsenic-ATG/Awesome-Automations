@@ -37,7 +37,7 @@ This repository is full of python automations that will make some tedious daily 
 - If you have some automations to share then go ahead and open an PR(pull request) {But first discuss it through **issue** section}
 
 ### Source
-Most of the ideas of project are from a book namely 'Automating boring stuff with python By Al Sweigart' but it is open to your automation ideas also.
+Most of the ideas of project are from a book named 'Automating boring stuff with python By Al Sweigart' but it is open to your automation ideas also.
 
 ## License
 
