@@ -1,0 +1,14 @@
+{
+  "name": "login-to-github",
+  "version": "1.0.0",
+  "description": "Log-in-Github",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^3.3.0"
+  }
+}
