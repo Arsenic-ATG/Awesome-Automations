@@ -18,6 +18,7 @@ This repository is full of automations that will make some tedious daily tasks e
 1. [Multiclipboard](https://github.com/Arsenic-ATG/python-automations/tree/master/Multiclipboard)
 2. [Phone-number and E-mail extractor](https://github.com/Arsenic-ATG/python-automations/tree/master/Phone%20%26%20Email%20Extrator)
 3. [Random Quiz Generator](https://github.com/Arsenic-ATG/python-automations/tree/master/Generating%20Random%20Quiz%20Files)
+4. [Automated Github-login](https://github.com/Arsenic-ATG/Python-Automations/tree/master/login-github)
 
 ### NOTE
 - All the projects that will grow too large to become stand alone projects will be added to another new repository accordingly ( you can find then using the links provided bellow )
