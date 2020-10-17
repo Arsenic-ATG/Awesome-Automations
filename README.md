@@ -2,16 +2,17 @@
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--_RATvLqD--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://cdn-images-1.medium.com/max/1600/1%2A1hT23VteSYhRbOaUtCcuEg.gif" width="700" height="300" />
 </p>
 
-  <h1 align="center">👩‍💻Python-Automations👨‍💻</h1>
+  <h1 align="center">👩‍💻Automations👨‍💻</h1>
   
 ---
 
 > Who likes to do those useless ,old and time consuming tasks manually when you can automate them.
 
-This repository is full of python automations that will make some tedious daily tasks easier and faster.
+This repository is full of automations that will make some tedious daily tasks easier and faster.
 
 ## language used
 - Python 🐍
+- Java Script 
 
 ## Some Notable Projects: 🧐
 1. [Multiclipboard](https://github.com/Arsenic-ATG/python-automations/tree/master/Multiclipboard)
@@ -27,6 +28,7 @@ This repository is full of python automations that will make some tedious daily 
 1. 🌐 [Map-It](https://github.com/Arsenic-ATG/Map-It)
 2. 🌐 [“I’m feeling lucky” google Search](https://github.com/Arsenic-ATG/I-am-Feeling-Lucky)
 3. 🌐 [Download all xkcd-comics](https://github.com/Arsenic-ATG/xkcd-comics)
+
 ### But How to run them ? 🤨
 - Most of the stuff will be plain python scripts which will only require you to have **python installed on your device** and an **IDE/text editor** to see and make changes to the scripts on your system.
 - If you don't have python on your machine then you can download it from [here](https://www.python.org/downloads/)
