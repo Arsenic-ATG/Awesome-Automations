@@ -13,7 +13,7 @@ const ask_user_name = () => {
   return new Promise((resolve, reject) => {
     rl.question("What is your user name ? \n ", (answer) => {
       userName = answer;
-      console.log(`your your user name is ${userName}\n`);
+      console.log(`your user name is ${userName}\n`);
       resolve();
     });
   });
@@ -23,7 +23,7 @@ const ask_password = () => {
   return new Promise((resolve, reject) => {
     rl.question("What is your password ? \n ", (answer) => {
       password = answer;
-      console.log(`your your password is ${password}\n`);
+      console.log(`your password is ${password}\n`);
       resolve();
     });
   });
