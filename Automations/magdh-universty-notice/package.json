@@ -1,0 +1,14 @@
+{
+  "name": "get-magdh-university-notice",
+  "version": "1.0.0",
+  "description": "get notice from magdh university",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^3.3.0"
+  }
+}
