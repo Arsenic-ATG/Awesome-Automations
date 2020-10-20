@@ -12,7 +12,8 @@ This repository is full of automations that will make some tedious daily tasks e
 
 ## language used till now
 - Python 🐍
-- Java Script 
+- Java Script
+
 ( contributions accepted in all languges)
 
 ## Some Notable Projects: 🧐
