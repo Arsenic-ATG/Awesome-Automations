@@ -30,7 +30,7 @@ This repository is full of automations that will make some tedious daily tasks e
 Go ahead and share that idea using the [issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section of this repository by creating a new issue.
 
 ## I want to contribute to this repository 🤩
-See [Contributing.md[(https://github.com/Arsenic-ATG/Awesome-Automations/blob/master/CONTRIBUTING.md) for details on contributing to this repository.
+See [Contributing.md](https://github.com/Arsenic-ATG/Awesome-Automations/blob/master/CONTRIBUTING.md) for details on contributing to this repository.
 
 ## Any problem/Questions ? 
 1) Head over to [issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section of the repo.
