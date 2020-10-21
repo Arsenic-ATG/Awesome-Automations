@@ -17,10 +17,10 @@ This repository is full of automations that will make some tedious daily tasks e
 ( contributions accepted in all languges)
 
 ## Some Notable Projects: 🧐
-1. [Multiclipboard](https://github.com/Arsenic-ATG/python-automations/tree/master/Multiclipboard)
-2. [Phone-number and E-mail extractor](https://github.com/Arsenic-ATG/python-automations/tree/master/Phone%20%26%20Email%20Extrator)
-3. [Random Quiz Generator](https://github.com/Arsenic-ATG/python-automations/tree/master/Generating%20Random%20Quiz%20Files)
-4. [Automated Github-login](https://github.com/Arsenic-ATG/Python-Automations/tree/master/login-github)
+1. [Multiclipboard](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/Multiclipboard)
+2. [Phone-number and E-mail extractor](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/Phone%20%26%20Email%20Extrator)
+3. [Random Quiz Generator](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/Generating%20Random%20Quiz%20Files)
+4. [Automated Github-login](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/login-github)
 
 ## List of more cool Automations with their own repository
 1. 🌐 [Map-It](https://github.com/Arsenic-ATG/Map-It)

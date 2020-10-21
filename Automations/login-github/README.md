@@ -4,7 +4,7 @@ Download code or clone repo
 
 ```bash
 
-git clone https://github.com/vivek80801/Python-Automations.git
+git clone https://github.com/Arsenic-ATG/Awesome-Automations.git
 
 ```
 
@@ -12,7 +12,7 @@ then navigate to folder
 
 ```bash
 
-cd Python-Automations/login-github/
+cd Awesome-Automations/Automations/login-github/
 
 ```
 
@@ -28,7 +28,7 @@ then run the script
 
 ```bash
 
-node index.js
+node start
 
 ```
 
@@ -36,5 +36,5 @@ node index.js
 
 You should `nodejs` installed in your device.
 
-If You haven't yet go to [nodejs org](https://nodejs.org)
+If You haven't yet go to [nodejs org](https://nodejs.org, "Go to nodejs.org")
 
