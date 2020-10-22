@@ -28,10 +28,15 @@ This repository is full of automations that will make some tedious daily tasks e
 3. 🌐 [Download all xkcd-comics](https://github.com/Arsenic-ATG/xkcd-comics)
 
 ## Have got an boring task to automate ? 😃
-Go ahead and share that idea using the [issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section of this repository by creating a new issue.
+Go ahead and share that idea using the [issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section of this repository by creating a new issue, If you are willing to contribute an automation then head over to [contribution.md](https://github.com/Arsenic-ATG/Awesome-Automations/blob/master/CONTRIBUTING.md) to see the procedure to contribute one.
 
 ## I want to contribute to this repository 🤩
-See [Contributing.md](https://github.com/Arsenic-ATG/Awesome-Automations/blob/master/CONTRIBUTING.md) for details on contributing to this repository.
+There are many ways to contribute to this repository :- 
+- Contributing an **automation Idea** : Just open an [issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) regarding the same with the idea template.
+- Contributing an **automation** : - Automation of all shapes and sizes are accepted See [Contributing.md](https://github.com/Arsenic-ATG/Awesome-Automations/blob/master/CONTRIBUTING.md) for detailed steps on how to contribute a new autmation to this repository.
+- Contributing to an **existing project** :- You can either enhance an existing project or create a version of it in different programming language.
+- Contributing to **documentation** :- If you find something is not correct or you could have done better in documentation including this readme or any project readme then you are most welcome to open an pull request or issue regarding the same.
+- **Somehing else** :- You can go ahead and look for something to work in [Issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section of the repo to find something to work upon
 
 ## Any problem/Questions ? 
 1) Head over to [issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section of the repo.
