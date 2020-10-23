@@ -28,7 +28,7 @@ then run the script
 
 ```bash
 
-node start
+npm start
 
 ```
 
