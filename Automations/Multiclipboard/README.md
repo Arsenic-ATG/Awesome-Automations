@@ -12,9 +12,9 @@ Here’s what the program does:
  
  - [x] Otherwise, the text for the keyword is copied to the keyboard
 
- - [ ] ```delete <keyword>``` command to delete a sepcific keyword
+ - [x] ```delete <keyword>``` command to delete a sepcific keyword
  
- - [ ] ```delete``` command line argument that will delete all the keywords
+ - [x] ```delete``` command line argument that will delete all the keywords
 
 ## But how to use this program ? 🧐
 
