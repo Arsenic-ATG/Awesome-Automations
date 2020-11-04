@@ -33,7 +33,7 @@ Go ahead and share that idea using the [issue](https://github.com/Arsenic-ATG/Aw
 ## I want to contribute to this repository 🤩
 There are many ways to contribute to this repository :- 
 - Contributing an **automation Idea** 💡: Just open an [issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) regarding the same with the idea template.
-- Contributing an **automation** ⚙️: - Automation of all shapes and sizes are accepted,See [Contributing.md](https://github.com/Arsenic-ATG/Awesome-Automations/blob/master/CONTRIBUTING.md) for detailed steps on how to contribute a new autmation to this repository.
+- Contributing an **automation** ⚙️: - Automation of all shapes and sizes are accepted, head over to [issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section to see if you want to work on one already open idea or want contribute a different one, See [Contributing.md](https://github.com/Arsenic-ATG/Awesome-Automations/blob/master/CONTRIBUTING.md) for detailed steps on how to contribute a new autmation to this repository.
 - Contributing to an **existing project** 🛠:- You can either enhance an existing project or create a version of it in different programming language.
 - Contributing to **documentation** 📄:- If you find something is not correct or you could have done better in documentation including this readme or any project readme then you are most welcome to open an pull request or issue regarding the same.
 - **Somehing else**:- You can go ahead and look for something to work in [Issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section of the repo to find something to work upon
