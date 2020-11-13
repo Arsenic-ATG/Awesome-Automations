@@ -9,7 +9,8 @@ const rl = readline.createInterface({
 });
 
 let projectName = "";
-let projectLocation =""
+let projectLocation = ""
+let editor = "";
 let userName = "";
 let password = "";
 
@@ -28,6 +29,17 @@ const ask_project_location = () => {
         rl.question("In which directory you want to create your project (Please enter full absolute path) ? \n ", (answer) => {
             projectLocation = answer;
             console.log(`you want to create your project in ${projectLocation}\n`);
+            resolve();
+        });
+    });
+};
+
+
+const ask_editor = () => {
+    return new Promise((resolve, reject) => {
+        rl.question("In which editor you want to open your project ? \n ", (answer) => {
+            editor = answer;
+            console.log(`you want to open your project in ${editor}\n`);
             resolve();
         });
     });
@@ -58,9 +70,11 @@ const ask_password = () => {
         await ask_project_location();
         await ask_project_name();
         await exec(`cd ~/${projectLocation} && mkdir ${projectName}`);
+        await ask_editor();
         await ask_user_name();
         await ask_password();
         rl.close();
+        console.log("connecting to github...");
         const browser = await puppeteer.launch({
             headless: false,
             args: ["--start-maximized"],
@@ -77,17 +91,17 @@ const ask_password = () => {
         await page.type("#login_field", userName, { delay: 250 });
         await page.type("#password", password, { delay: 250 });
         await page.click(".btn.btn-primary.btn-block");
-        await page.waitForNavigation({timeout:0});
+        await page.waitForNavigation({ timeout: 0 });
         await page.waitForSelector(".btn.btn-sm.btn-primary.text-white");
         await page.click(".btn.btn-sm.btn-primary.text-white");
         await page.waitForSelector(".form-control.js-repo-name.js-repo-name-auto-check short");
         await page.waitForSelector(".btn.btn-primary.first-in-line");
         await page.type(".form-control.js-repo-name.js-repo-name-auto-check short", projectName);
         await page.click(".btn.btn-primary.first-in-line");
-        await page.waitForNavigation({timeout:0});
+        await page.waitForNavigation({ timeout: 0 });
         await page.click(".details-overlay.details-reset.js-feature-preview-indicator-container > summary > img");
         await page.click(".dropdown-item.dropdown-signout")
-        await page.waitForNavigation({timeout:0});
+        await page.waitForNavigation({ timeout: 0 });
         await exec(`cd ~/${projectLocation}${projectName}`);
         await exec(`echo "# ${projectName}" >> README.md`)
         await exec(`git init`)
@@ -95,7 +109,12 @@ const ask_password = () => {
         await exec(`git commit -m "initial commit"`)
         await exec(`git remote add origin https://github.com/${userName}/${projectName}.git`)
         await exec(`git push -u origin`)
-        await exec("code .")
+        if (editor === "atom" || editor === "code") {
+            console.log(`opening your project in ${editor}`);
+            await exec(`${editor} .`);
+        } else {
+            console.log("Not opening your project in editor");
+        }
         await page.screenshot({ path: "example.png" });
         await browser.close();
     } catch (error) {
