@@ -19,3 +19,4 @@ You will asked `"In which directory you want to create your project ?"`. Just en
 
 example: If I want to create my project in `~/projects/websites/`. I will enter `projects/websites/`.
 
+You will be asked for `username` and `password` two times. One by script and Second by github before pushing "your newly created  repo" to github.

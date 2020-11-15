@@ -77,7 +77,7 @@ const ask_password = () => {
         rl.close();
         console.log("connecting to github...");
         const browser = await puppeteer.launch({
-            headless: false,
+            headless: true,
             args: ["--start-maximized"],
         });
         const page = await browser.newPage();
@@ -94,11 +94,13 @@ const ask_password = () => {
         await page.click(".btn.btn-primary.btn-block");
         await page.waitForSelector(".mb-3.Details.js-repos-container > #repos-container > h2 > a");
         await page.click(".mb-3.Details.js-repos-container > #repos-container > h2 > a");
+        console.log("creating repo");
         await page.waitForSelector("#repository_name")
         await page.type("#repository_name", projectName);
         await page.waitForTimeout(15000)
         await page.click(".btn.btn-primary.first-in-line");
         await page.waitForNavigation({ timeout: 0 });
+        console.log("sign out. disconnecting github..");
         await page.click(".details-overlay.details-reset.js-feature-preview-indicator-container > summary > img");
         await page.waitForSelector(".dropdown-item.dropdown-signout")
         await page.click(".dropdown-item.dropdown-signout")
