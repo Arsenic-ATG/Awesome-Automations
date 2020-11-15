@@ -69,6 +69,7 @@ const ask_password = () => {
     try {
         await ask_project_location();
         await ask_project_name();
+        console.log("creating project...");
         await exec(`cd ~/${projectLocation} && mkdir ${projectName}`);
         await ask_editor();
         await ask_user_name();
@@ -91,30 +92,25 @@ const ask_password = () => {
         await page.type("#login_field", userName, { delay: 250 });
         await page.type("#password", password, { delay: 250 });
         await page.click(".btn.btn-primary.btn-block");
-        await page.waitForNavigation({ timeout: 0 });
-        await page.waitForSelector(".btn.btn-sm.btn-primary.text-white");
-        await page.click(".btn.btn-sm.btn-primary.text-white");
-        await page.waitForSelector(".form-control.js-repo-name.js-repo-name-auto-check short");
-        await page.waitForSelector(".btn.btn-primary.first-in-line");
-        await page.type(".form-control.js-repo-name.js-repo-name-auto-check short", projectName);
+        await page.waitForSelector(".mb-3.Details.js-repos-container > #repos-container > h2 > a");
+        await page.click(".mb-3.Details.js-repos-container > #repos-container > h2 > a");
+        await page.waitForSelector("#repository_name")
+        await page.type("#repository_name", projectName);
+        await page.waitForTimeout(15000)
         await page.click(".btn.btn-primary.first-in-line");
         await page.waitForNavigation({ timeout: 0 });
         await page.click(".details-overlay.details-reset.js-feature-preview-indicator-container > summary > img");
+        await page.waitForSelector(".dropdown-item.dropdown-signout")
         await page.click(".dropdown-item.dropdown-signout")
         await page.waitForNavigation({ timeout: 0 });
-        await exec(`cd ~/${projectLocation}${projectName}`);
-        await exec(`echo "# ${projectName}" >> README.md`)
-        await exec(`git init`)
-        await exec(`git add README.md`)
-        await exec(`git commit -m "initial commit"`)
-        await exec(`git remote add origin https://github.com/${userName}/${projectName}.git`)
-        await exec(`git push -u origin`)
-        if (editor === "atom" || editor === "code") {
+        await exec(`cd ~/${projectLocation}${projectName} && echo "# ${projectName}" >> README.md && git init && git add README.md && git commit -m "initial commit" && git branch -M main && git remote add origin https://github.com/${userName}/${projectName}.git && git push -u origin main`);
+        if (editor === "atom" || editor === "code" || editor === "vscode") {
             console.log(`opening your project in ${editor}`);
-            await exec(`${editor} .`);
+            await exec(`cd ~/${projectLocation}${projectName} && ${editor} .`);
         } else {
             console.log("Not opening your project in editor");
         }
+        console.log("done");
         await page.screenshot({ path: "example.png" });
         await browser.close();
     } catch (error) {
