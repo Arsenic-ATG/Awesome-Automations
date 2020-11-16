@@ -1,0 +1,14 @@
+{
+  "name": "github-create-repo",
+  "version": "1.0.0",
+  "description": "This is automation script for creating repo on github",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.4.1"
+  }
+}
