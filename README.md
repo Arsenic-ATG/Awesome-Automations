@@ -21,6 +21,7 @@ This repository is full of automations that will make some tedious daily tasks e
 2. [Phone-number and E-mail extractor](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/Phone%20%26%20Email%20Extrator)
 3. [Random Quiz Generator](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/Generating%20Random%20Quiz%20Files)
 4. [Automated Github-login](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/login-github)
+5. [Automated process of creating a new project with GitHub](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/github-create-repo)
 
 ## List of more cool Automations with their own repository
 1. 🌐 [Map-It](https://github.com/Arsenic-ATG/Map-It)
