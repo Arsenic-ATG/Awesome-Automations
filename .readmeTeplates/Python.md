@@ -1,6 +1,6 @@
-# <Project Name>
+# Project Name
 
-<! ---
+<!---
 Q what is this project ?
 Q how will this help others at getting the task done ?
 Q what were the steps earler and what steps can be skipped by using this automation ?
