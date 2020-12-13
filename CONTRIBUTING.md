@@ -28,3 +28,8 @@
     That’s it!🎉 Wait for your pull request to be approved and merged. If there are any discrepancies, an admin
 will add a comment requesting you to make the necessary changes and your pull request will have to be
 updated accordingly.
+
+----
+
+## NOTE 📝: 
+If you already have an automation and just want it to apper in the [**Automation with thier own repo**](https://github.com/Arsenic-ATG/Awesome-Automations#list-of-more-cool-automations-with-their-own-repository) list, then just send a PR updating the README.md file with link to your repo in the file ( although the automation should still be contribution ready as explaind in step - 0 here )
