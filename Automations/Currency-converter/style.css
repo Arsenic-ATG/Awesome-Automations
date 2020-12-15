@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: url(/image/bg.jpg) no-repeat center center/cover;
+  
+}
+/* navbar styling */
+#navbar{
+    text-align: center;
+    font-size: x-large;
+    background-color: #1F1A24;
+    color: white;
+    padding: 8px;
+    
+}
+/* containers */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    color: white;
+    height: 5.4rem;
+    padding: 12px;
+    width: 16.7rem;
+    border-radius: 2px;
+    background-color: #1d1d1d85;
+}
+.container button{
+    margin: 3px;
+    color: white;
+    background-color: rgba(20, 20, 20, 0.562);
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+/* option selectors */
+.selectors{
+    width: 65%;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
