@@ -12,6 +12,7 @@ This webapp is created to get news headline . It use news api to fetch all top 1
 - dependencies
     - express (^4.17.1)
     - request (^2.88.2)
+    - dotenv (^8.2.0)
 
 - devDependencies
     - nodemon (^2.0.6)
@@ -32,9 +33,11 @@ This webapp is created to get news headline . It use news api to fetch all top 1
 
 -  If you want to run with **npm**
     - Run `npm start`
+    - Run `npm run dev`. If you are contributing on this webapp
 
 - If you want to run with **yarn**
     - Run `yarn start`
+    - Run `yarn dev`. If you are contributing on this webapp
 
 open [localhost:3000](http://localhost:3000 "Go to localhost") on your default webbrowser
 
