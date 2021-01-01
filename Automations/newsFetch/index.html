@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-	<title>find top headline</title>
-	<script defer src="/index.js"></script>
-  </head>
-  <body>
-    <h1>Get top Headline news for your country</h1>
-    <form action="/" method="post">
-      <fieldset>
-        <legend>choose your country</legend>
-        <p>
-          <label>select country</label>
-		<select name="country" id="list"></select>
-</p>
-      </fieldset>
-      <button type="submit" name="submit">Check news</button>
-    </form>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>find top headline</title>
+  <link rel="stylesheet" href="/index.css">
+  <script defer src="/index.js"></script>
+</head>
+
+<body>
+  <h1>Get top Headline news for your country</h1>
+  <form action="/" method="post">
+    <fieldset>
+      <legend>choose your country</legend>
+      <p>
+        <label>select country</label>
+        <select name="country" id="list"></select>
+      </p>
+    </fieldset>
+    <button class="btn-primary" type="submit" name="submit">Check news</button>
+  </form>
+</body>
+
 </html>

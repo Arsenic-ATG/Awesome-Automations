@@ -6,6 +6,8 @@ const request = require("request");
 const app = express();
 const port = process.env.PORT || 3000;
 
+require("dotenv").config()
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")))
 
@@ -15,12 +17,11 @@ app.get("/", function (req, res) {
 
 app.post("/", function (req, res) {
   const id = req.body.country;
-  const api = "5f54eed41d8a41c094b9e19a58b356ca";
+  const api = process.env.API_KEY;
   const url = "https://newsapi.org/v2/top-headlines?country=" + id + "&apiKey=" + api + " ";
 
   request(url, { json: true }, function (err, response, body) {
     res.setHeader("Content-Type", "text/html");
-
     if (body.totalResults > 0) {
       if (!err && response.statusCode) {
         for (let i = 0; i < 10; i++) {
@@ -41,6 +42,11 @@ app.post("/", function (req, res) {
     }
   });
 });
+
+app.use(function (req, res, next) {
+  res.status(404);
+  res.sendFile(__dirname + "/404.html");
+})
 
 app.listen(port, function () {
   console.log("server is running on http://localhost:" + port);
