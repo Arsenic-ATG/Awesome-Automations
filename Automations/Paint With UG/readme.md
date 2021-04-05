@@ -5,8 +5,7 @@
 ![](https://img.shields.io/badge/Status-Beta-green.svg)
 ![](https://img.shields.io/badge/Version-CodeBlocks_20.03-red.svg)
 ![](https://img.shields.io/badge/Version-updated-blue.svg)
-<h1><p align="center">Paint-with-UG-The-SEP</p>
-<p align="center">😲Updated Version😲</p> </h1>
+<h1><p align="center">Paint-with-UG</p></h1>
 <h2> Feature in Paint with UG</h2><br>
 1. Pencil <br>
 2. Fill<br>
@@ -27,12 +26,12 @@
 17. Change Background<br>
 18. Horizontal symetric<br>
 19. Vertical symetric<br>
-<h1>What's New👀👀??</h1><br>
-<h2>1. Fixed few bugs🐛🐛</br>
-2:New features🆕🆕</h2></br>
-<h1>What's New Features🤔🤔🤔🤔</h1>
+<h1>What's Look Automation🤔🤔🤔🤔</h1>
 <h2>1.Horizontal Symetric 😲😲</br>
     2.Vertical Symetric😲😲</h2>
+ <br>
+ <h2>What is horizontal and vertical symetric and how is this make project Automatation project❓❓</h2>
+  <h3>You all have study symetric in mathmatics i will you divide any object in n equal parts same here but in different way like you choose <i>horizontal symetric</i> and draw any shape of anything anywhere it will make a clone of the shape corresponding to it's in horizontal way.And if you choose the <i>vertically symetric</i> it make make the clone of the shape vertically see the advantage of the feature given below.</h3>
 <h1>Advantages of New Feature</h1>
 <h2>1. Less effort while drawing figure😊</br>
     2. Easy to create eyes of human i.e. help  to make the eyes equidistant and same👁‍🗨👁‍🗨.</br>
@@ -48,7 +47,6 @@
  <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/Screenshot%202021-02-09%20223744.jpg" alt="Image">
 <h1> Love By Starting Some of my repos💖💖💖</h1><br>
 <h2> 🤝 Connect with me:-</h2>
- [youtube]: https://www.youtube.com/channel/UChdmj1kcZiXXsmEKz7dVnWQ </br>
-[linkedin]: https://www.linkedin.com/in/ujjwal-gupta-ug-233543202/ </br>
-
+<a href="https://www.youtube.com/channel/UChdmj1kcZiXXsmEKz7dVnWQ">Watch Video on Youtube</a> <br>
+<a href="https://www.linkedin.com/in/ujjwal-gupta-ug-233543202/">Connect With Me 🤝</a>
 
