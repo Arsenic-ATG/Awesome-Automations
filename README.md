@@ -23,7 +23,6 @@ This repository is full of automations that will make some tedious daily tasks e
 4. [Automated Github-login](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/login-github)
 5. [Automated process of creating a new project with GitHub](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/github-create-repo)
 6. [Paint With UG](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/Paint%20With%20UG)
-7. 
 ## List of more cool Automations with their own repository
 1. 🌐 [Map-It](https://github.com/Arsenic-ATG/Map-It)
 2. 🌐 [“I’m feeling lucky” google Search](https://github.com/Arsenic-ATG/I-am-Feeling-Lucky)
