@@ -11,7 +11,8 @@
 This repository is full of automations that will make some tedious daily tasks easier and faster.
 
 ## language used till now
-- Python 🐍
+- Python
+- C++
 - Java Script
 
 ( contributions accepted in all languges)
