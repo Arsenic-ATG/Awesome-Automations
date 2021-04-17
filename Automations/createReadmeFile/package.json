@@ -1,0 +1,11 @@
+{
+  "name": "createreadmefile",
+  "version": "1.0.0",
+  "description": "create readme file based on readme template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "vivek80801",
+  "license": "ISC"
+}
