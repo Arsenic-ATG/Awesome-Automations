@@ -1,5 +1,5 @@
 const readline = require("readline");
-const {exec} = require("child_process");
+const { exec } = require("child_process");
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -15,8 +15,8 @@ let numberOfThingsNeededToRun = 0;
 let thingsNeedToRun = [];
 let numberOfAdditionalPackages = 0;
 let additionalPackages = [];
-let nameOfCreator ="";
-let linkOfProfileOfCreator="";
+let nameOfCreator = "";
+let linkOfProfileOfCreator = "";
 let numberOfSteps = 0;
 let stepsToRun = [];
 
@@ -72,7 +72,7 @@ const ask_additonal_package = () => {
   return new Promise((resolve, reject) => {
     rl.question("what is name of additional package? \n", (answer) => {
       additionalPackages.push(answer);
-      console.log(`\tName of additional package is ${answer}\n`)
+      console.log(`\tName of additional package is ${answer}\n`);
       resolve();
     });
   });
@@ -107,6 +107,7 @@ const ask_things_needed_to_run = () => {
     });
   });
 };
+
 const ask_name_of_creator = () => {
   return new Promise((resolve, reject) => {
     rl.question("what is name of creator?\n", (answer) => {
@@ -116,6 +117,7 @@ const ask_name_of_creator = () => {
     });
   });
 };
+
 const ask_link_to_profile_of_creator = () => {
   return new Promise((resolve, reject) => {
     rl.question("write link profile of creator?\n", (answer) => {
@@ -125,6 +127,7 @@ const ask_link_to_profile_of_creator = () => {
     });
   });
 };
+
 const ask_number_of_steps = () => {
   return new Promise((resolve, reject) => {
     rl.question("Number of steps to run project?\n", (answer) => {
@@ -134,10 +137,11 @@ const ask_number_of_steps = () => {
     });
   });
 };
+
 const ask_step = () => {
   return new Promise((resolve, reject) => {
     rl.question("what is step to run the project? \n", (answer) => {
-      stepsToRun.push(answer)
+      stepsToRun.push(answer);
       console.log(`\tStep: ${answer}.\n`);
       resolve();
     });
@@ -146,7 +150,7 @@ const ask_step = () => {
 
 (async function () {
   try {
-    console.log("This automation only work for javascript and python.")
+    console.log("This automation only work for javascript and python.");
     await ask_project_name();
     await ask_description_of_project();
     await ask_location();
@@ -162,9 +166,9 @@ const ask_step = () => {
         await ask_additonal_package();
       }
     }
-    if(programmingLanguage === "py" || programmingLanguage === "python" || programmingLanguage === "Python"){
+    if (programmingLanguage === "py" || programmingLanguage === "python" || programmingLanguage === "Python") {
       await ask_number_of_steps();
-      for(let i =0; i < numberOfSteps; i++){
+      for (let i = 0; i < numberOfSteps; i++) {
         await ask_step();
       }
     }
@@ -172,8 +176,7 @@ const ask_step = () => {
     await ask_link_to_profile_of_creator();
     rl.close();
     console.log("creating your file....");
-
- exec(`cd ${location} && echo "# ${projectName}
+    exec(`cd ${location} && echo "# ${projectName}
 
 ${descriptionOfProject}
 
@@ -187,7 +190,7 @@ ${thingsNeedToRun.map((thing) => `- ${thing}
 ${additionalPackages.map((additional) => `- ${additional}
 `).join("")}
 ${programmingLanguage === "javascript" || programmingLanguage === "js" || programmingLanguage === "Javascript" ?
-`#### But how do I install additonal packages? 🤨
+        `#### But how do I install additonal packages? 🤨
 
 - Make sure you have **nodejs** installed on your system. If you haven't yet go to [nodejs.org](https://nodejs.org "go to nodejs.org")
 
@@ -225,7 +228,7 @@ ${stepsToRun.map((st) => `- ${st}
 [${nameOfCreator}](${linkOfProfileOfCreator} "Go to profile of creator")
   ` : ""}
 " > README.md`);
-    console.log("your file is created.")
+    console.log("your file is created.");
   } catch (error) {
     console.log(error.message);
   }
