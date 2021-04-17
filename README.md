@@ -46,6 +46,20 @@ There are many ways to contribute to this repository :-
 
 ## Don't forget to give this repository a star ⭐️ if you like these automation 😅.
 
+## Contributors ✨
+
+Thanks goes to these wonderful people.
+
+<table>
+	<tr>
+		<td>
+			<a href="https://github.com/Arsenic-ATG/Awesome-Automations/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Arsenic-ATG/Awesome-Automations" />
+</a>
+		</td>
+	</tr>
+</table>
+
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 

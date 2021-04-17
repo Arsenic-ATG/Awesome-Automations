@@ -185,38 +185,39 @@ ${descriptionOfProject}
 ${thingsNeedToRun.map((thing) => `- ${thing}
 `).join("")}
 
-### Additional packages 📝
+"### Additional packages 📝"
 
 ${additionalPackages.map((additional) => `- ${additional}
 `).join("")}
 ${programmingLanguage === "javascript" || programmingLanguage === "js" || programmingLanguage === "Javascript" ?
         `#### But how do I install additonal packages? 🤨
 
-- Make sure you have **nodejs** installed on your system. If you haven't yet go to [nodejs.org](https://nodejs.org "go to nodejs.org")
+- Make sure you have **nodejs** installed on your system. If you haven't yet go to [nodejs.org](https://nodejs.org 'go to nodejs.org')
 
 - If you want to install dependecies with **npm**
     - check for **yarn.lock**. If it is in root of directory. then DELETE **yarn.lock**
-    - Now, run "npm install". This will install all the dependencies.
+    - Now, run 'npm install'. This will install all the dependencies.
 
 - If you want to install dependencies **yarn**.
     - check for **package-lock.json**. If it is in root of directory. then DELETE **package-lock.json**
-    - Now, run "yarn install" or "yarn". This will install all the dependencies.
+    - Now, run 'yarn install' or 'yarn'. This will install all the dependencies.
 
 ### How to use this program ? 💻
 
 -  If you want to run with **npm**
-    - Run "npm start"
+    - Run 'npm start'
+
 - If you want to run with **yarn**
-    - Run "yarn start"
+    - Run 'yarn start'
 
 ---
 
 ### Made By :-
-[${nameOfCreator}](${linkOfProfileOfCreator} "Go to profile of creator")
+[${nameOfCreator}](${linkOfProfileOfCreator} 'Go to profile of creator')
   ` : programmingLanguage === "python" || programmingLanguage === "py" || programmingLanguage || "Python" ? `
  #### But how do I install additonal packages? 🤨
 - Make sure you have python package manager (**pip**) installed on your system
-- Go to command line and type """pip install <library name>""" { _pip3_ on mac }
+- Go to command line and type '''pip install <library name>''' { _pip3_ on mac }
 - For detailed information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)
 
 ### How to use this program ? 💻
@@ -225,7 +226,7 @@ ${stepsToRun.map((st) => `- ${st}
 `).join("")}
 
 ### Made By :-
-[${nameOfCreator}](${linkOfProfileOfCreator} "Go to profile of creator")
+[${nameOfCreator}](${linkOfProfileOfCreator} 'Go to profile of creator')
   ` : ""}
 " > README.md`);
     console.log("your file is created.");
