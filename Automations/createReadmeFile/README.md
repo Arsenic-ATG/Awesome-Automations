@@ -1,0 +1,38 @@
+# Create Readme file
+
+This projects helps you in creating readme files for this repo based on readme template. That will make this repo more orgnise
+
+### Things you will need to get it running  📈 :-
+
+- nodejs
+- git
+
+
+### Additional packages 📝
+
+
+#### But how do I install additonal packages? 🤨
+
+- Make sure you have **nodejs** installed on your system. If you haven't yet go to [nodejs.org](https://nodejs.org go to nodejs.org)
+
+- If you want to install dependecies with **npm**
+    - check for **yarn.lock**. If it is in root of directory. then DELETE **yarn.lock**
+    - Now, run npm install. This will install all the dependencies.
+
+- If you want to install dependencies **yarn**.
+    - check for **package-lock.json**. If it is in root of directory. then DELETE **package-lock.json**
+    - Now, run yarn install or yarn. This will install all the dependencies.
+
+### How to use this program ? 💻
+
+-  If you want to run with **npm**
+    - Run npm start
+- If you want to run with **yarn**
+    - Run yarn start
+
+---
+
+### Made By :-
+[vivek80801](https://github.com/vivek80801 Go to profile of creator)
+  
+
