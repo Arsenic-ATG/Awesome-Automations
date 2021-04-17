@@ -61,7 +61,7 @@ const ask_programming_language = () => {
 const ask_additonal_packages = () => {
   return new Promise((resolve, reject) => {
     rl.question("Do you project need additional packages ? \n(write only 'yes' or 'no' in lowercase otherwise this program will fail.)\n", (answer) => {
-      isAdditionalPackages = answer === "yes" ? true : answer === "no" ? false : false
+      isAdditionalPackages = answer === "yes" ? true : answer === "no" ? false : false;
       console.log(`${isAdditionalPackages === false ? "\tGreat, your project does not need additional packages\n" : "\tSo, Your project need additional packages."}\n`);
       resolve();
     });
@@ -101,8 +101,8 @@ const ask_number_of_things = () => {
 const ask_things_needed_to_run = () => {
   return new Promise((resolve, reject) => {
     rl.question("what is name of thing need to run? \n", (answer) => {
-      thingsNeedToRun.push(answer)
-      console.log(`\tName of thing is ${answer}\n`)
+      thingsNeedToRun.push(answer);
+      console.log(`\tName of thing is ${answer}\n`);
       resolve();
     });
   });
