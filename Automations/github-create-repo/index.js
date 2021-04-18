@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 const readline = require("readline");
-const util = require('util');
-const exec = util.promisify(require('child_process').exec);
+const util = require("util");
+const exec = util.promisify(require("child_process").exec);
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 });
 
 let projectName = "";
-let projectLocation = ""
+let projectLocation = "";
 let editor = "";
 let userName = "";
 let password = "";
@@ -95,15 +95,15 @@ const ask_password = () => {
         await page.waitForSelector(".mb-3.Details.js-repos-container > #repos-container > h2 > a");
         await page.click(".mb-3.Details.js-repos-container > #repos-container > h2 > a");
         console.log("creating repo");
-        await page.waitForSelector("#repository_name")
+        await page.waitForSelector("#repository_name");
         await page.type("#repository_name", projectName);
-        await page.waitForTimeout(15000)
+        await page.waitForTimeout(15000);
         await page.click(".btn.btn-primary.first-in-line");
         await page.waitForNavigation({ timeout: 0 });
         console.log("sign out. disconnecting github..");
         await page.click(".details-overlay.details-reset.js-feature-preview-indicator-container > summary > img");
-        await page.waitForSelector(".dropdown-item.dropdown-signout")
-        await page.click(".dropdown-item.dropdown-signout")
+        await page.waitForSelector(".dropdown-item.dropdown-signout");
+        await page.click(".dropdown-item.dropdown-signout");
         await page.waitForNavigation({ timeout: 0 });
         await exec(`cd ~/${projectLocation}${projectName} && echo "# ${projectName}" >> README.md && git init && git add README.md && git commit -m "initial commit" && git branch -M main && git remote add origin https://github.com/${userName}/${projectName}.git && git push -u origin main`);
         if (editor === "atom" || editor === "code" || editor === "vscode") {
@@ -118,4 +118,4 @@ const ask_password = () => {
     } catch (error) {
         console.log(error.message);
     }
-})()
+})();

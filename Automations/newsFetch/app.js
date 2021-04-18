@@ -6,10 +6,10 @@ const request = require("request");
 const app = express();
 const port = process.env.PORT || 3000;
 
-require("dotenv").config()
+require("dotenv").config();
 
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, "public")))
+app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
@@ -32,7 +32,7 @@ app.post("/", function (req, res) {
           res.write(body.articles["" + i].content + "<br>");
           res.write("<img src =" + image + " width= 200 ><br><br>");
           res.write("<p>Time: " + body.articles["" + i].publishedAt + "</p>");
-          res.write('<a href="' + body.articles["" + i].url + '">Details</a>');
+          res.write("<a href=\"" + body.articles["" + i].url + "\">Details</a>");
         }
       }
       res.send();
@@ -46,7 +46,7 @@ app.post("/", function (req, res) {
 app.use(function (req, res, next) {
   res.status(404);
   res.sendFile(__dirname + "/404.html");
-})
+});
 
 app.listen(port, function () {
   console.log("server is running on http://localhost:" + port);
