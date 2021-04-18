@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is repo for awesome automations.",
   "scripts": {
-	  "lint":"eslint --fix ./**/*.{js, ts, tsx, jsx}"
+    "lint": "eslint --fix \"./**/*.{js, ts, tsx, jsx}\""
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Arsenic-ATG/Awesome-Automations/issues"
   },
-  "homepage": "https://github.com/Arsenic-ATG/Awesome-Automations#readme"
+  "homepage": "https://github.com/Arsenic-ATG/Awesome-Automations#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  }
 }
