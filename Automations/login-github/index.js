@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 });
 
 let userName = "";
-let password = "";
+let password = ""
 
 const ask_user_name = () => {
   return new Promise((resolve, reject) => {
