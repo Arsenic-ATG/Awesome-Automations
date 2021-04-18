@@ -1,0 +1,24 @@
+{
+  "name": "python-automations",
+  "version": "1.0.0",
+  "description": "This is repo for awesome automations.",
+  "scripts": {
+	  "lint":"eslint --fix ./**/*.{js, ts, tsx, jsx}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arsenic-ATG/Awesome-Automations.git"
+  },
+  "keywords": [
+    "automation",
+    "python",
+    "javascript",
+    "c++"
+  ],
+  "author": "Arsenic-ATG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arsenic-ATG/Awesome-Automations/issues"
+  },
+  "homepage": "https://github.com/Arsenic-ATG/Awesome-Automations#readme"
+}
