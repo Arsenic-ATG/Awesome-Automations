@@ -12,7 +12,7 @@ let projectName = "";
 let projectLocation = ""
 let editor = "";
 let userName = "";
-let password = "";
+let password = ""
 
 const ask_project_name = () => {
     return new Promise((resolve, reject) => {
