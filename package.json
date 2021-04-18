@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is repo for awesome automations.",
   "scripts": {
-    "lint": "eslint --fix \"./**/*.{js, ts, tsx, jsx}\""
+    "lint": "eslint \"./**/*.{js, ts, tsx, jsx}\""
   },
   "repository": {
     "type": "git",
