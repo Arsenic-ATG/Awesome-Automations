@@ -11,6 +11,8 @@
     },
     "rules": {
         "no-unused-vars" :"off",
-        "no-constant-condition":"off"
+        "no-constant-condition":"off",
+        "semi":"warn",
+        "quotes": ["warn", "double"]
     }
 }
