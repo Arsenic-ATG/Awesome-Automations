@@ -12,7 +12,7 @@
     "rules": {
         "no-unused-vars" :"off",
         "no-constant-condition":"off",
-        "semi":"warn",
-        "quotes": ["warn", "double"]
+        "semi":"error",
+        "quotes": ["error", "double"]
     }
 }
