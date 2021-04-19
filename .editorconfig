@@ -1,0 +1,9 @@
+root = true
+
+[*.{js, jsx, ts, tsx}]
+
+charset = utf-8
+indent_style = tab
+indent_size = 2
+tab_width = 1
+insert_final_newline = true
