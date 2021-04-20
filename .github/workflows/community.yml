@@ -1,0 +1,25 @@
+on:
+  fork:
+  push:
+    branches: [develop]
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+  pull_request_target:
+    types: [opened]
+  pull_request_review_comment:
+    types: [created]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: '<h1>It''s great having you contribute to this project</h1> Welcome to our project :nerd_face:'
+          pr-message: '<h1>It''s great having you contribute to this project</h1> Welcome to the project :nerd_face:'
+          footer: 'Our developers will respond you as soon as possible 🤓 . Any questions let us know.'
+
