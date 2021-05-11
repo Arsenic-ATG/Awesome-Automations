@@ -35,7 +35,7 @@ const ask_filename = () => {
         await ask_dirName();
 		await ask_filename();
 		rl.close();
-        exec(`cd ${dirName}`)
+        exec(`cd ${dirName}`);
 		fs.readFile(fileName, (err, data) => {
 			if (err) {
 				console.log(err);
