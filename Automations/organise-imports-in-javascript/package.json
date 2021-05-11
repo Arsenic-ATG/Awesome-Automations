@@ -1,0 +1,11 @@
+{
+  "name": "organise-imports-in-javascript",
+  "version": "1.0.0",
+  "description": "This is package for organising imports in javascript",
+  "main": "index.js",
+  "scripts": {
+      "start": "node index.js"
+  },
+  "author": "vivek80801",
+  "license": "ISC"
+}
