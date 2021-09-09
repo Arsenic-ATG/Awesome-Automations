@@ -17,11 +17,11 @@ This webapp is created to get news headline . It use news api to fetch all top 1
 - devDependencies
     - nodemon (^2.0.6)
 
-#### But how do I install additonal packages? 🤨
+#### But how do I install additional packages? 🤨
 
 - Make sure you have **nodejs** installed on your system. If you haven't yet go to [nodejs.org](https://nodejs.org "go to nodejs.org")
 
-- If you want to install dependecies with **npm**
+- If you want to install dependencies with **npm**
     - check for **yarn.lock**. If it is in root of directory. then DELETE **yarn.lock**
     - Now, run `npm install`. This will install all the dependencies.
 

@@ -3,7 +3,7 @@
 This web app is exclusively made for converting different currency rates in a most simple 
 and efficient manner. The best part of this web app is that it converts to current and live 
 rates from one another which keeps you up-to-date with the current exchange rates. It 
-supports upto 52 different currency rates from all over the globe. 
+supports up to 52 different currency rates from all over the globe. 
  
 It fetches live exchange rates from an API from the website exchangerate-api.com and 
 use it here.

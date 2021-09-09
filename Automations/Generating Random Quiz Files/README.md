@@ -24,12 +24,12 @@ Here is what the program does:
 
 ### How to use this program ? 💻
 - Run this script using [command line](https://www.cs.bu.edu/courses/cs108/guides/runpython.html) or your favorite python IDE
-- By default it runs for 3 students(hence generates 3 different quizes) you can change then number of quizes by changing the value of **number_of_quizes** variable in the script uing your favorite text editor
+- By default it runs for 3 students(hence generates 3 different quizzes) you can change then number of quizzes by changing the value of **number_of_quizes** variable in the script uing your favorite text editor
 
 ### Additional packages 📝
 - No additional packages 🙂
 
-#### But how do I install additonal packages? 🤨
+#### But how do I install additional packages? 🤨
 - Make sure you have python installed on your system
 - Go to command line and type ```pip install <library name>```
 - For further information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)

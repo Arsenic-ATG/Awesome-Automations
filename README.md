@@ -15,7 +15,7 @@ This repository is full of automations that will make some tedious daily tasks e
 - C++
 - Java Script
 
-( contributions accepted in all languges)
+( contributions accepted in all languages)
 
 ## Some Notable Projects: 🧐
 1. [Multiclipboard](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/Multiclipboard)

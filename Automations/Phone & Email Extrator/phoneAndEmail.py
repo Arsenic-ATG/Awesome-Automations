@@ -3,9 +3,9 @@ import re,pyperclip
 # create phone regex
 phoneRegex = re.compile(r'''
 ( (\d{3}|\(\d{3}\))?                # Area code
-(\s|-|\.)?                          # Seperator
+(\s|-|\.)?                          # Separator
 (\d{3})                             # first 3 digits
-(\s|-|\.)                           # seperator
+(\s|-|\.)                           # separator
 (\d{4})                             # last 3 digits
 (\s*(ext|x|ext.)\s*(\d{2,5}))? )   # extension
 ''', re.VERBOSE)

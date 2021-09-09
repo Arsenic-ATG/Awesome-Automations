@@ -4,6 +4,6 @@
 
 ### How to use this program ? 💻
 - run the main python file giving the directory as an argument `py main.py path/to/directory`
-- Thats it. Done
+- That's it. Done
 
 

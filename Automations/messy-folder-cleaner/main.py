@@ -8,7 +8,7 @@ from utils import get_file_extension
 from file_extensions import getExtensionCategory
 
 def organise(filelist, directory):
-    # moves files in folders accordind to their extentions
+    # moves files in folders accordind to their extensions
     for my_file in filelist:
         file_category = getExtensionCategory(get_file_extension(my_file))
         loc = directory+"\\"

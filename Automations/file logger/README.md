@@ -7,7 +7,7 @@ when this script is running, it will observe and keep an eye on changes made in 
 ### Additional packages 📝
 - watchdogs
 
-#### But how do I install additonal packages? 🤨
+#### But how do I install additional packages? 🤨
 - make sure you have python installed on your system
 - go to command line and type ```pip install <library name>```
 - for further information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)

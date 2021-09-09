@@ -24,14 +24,14 @@
 15. Cone<br>
 16. Clear<br>
 17. Change Background<br>
-18. Horizontal symetric<br>
-19. Vertical symetric<br>
+18. Horizontal symmetric<br>
+19. Vertical symmetric<br>
 <h1>What's Look Automation🤔🤔🤔🤔</h1>
-<h2>1.Horizontal Symetric 😲😲</br>
-    2.Vertical Symetric😲😲</h2>
+<h2>1.Horizontal Symmetric 😲😲</br>
+    2.Vertical Symmetric😲😲</h2>
  <br>
- <h2>What is horizontal and vertical symetric and how is this make project Automatation project❓❓</h2>
-  <h3>You all have study symetric in mathmatics that it's a way to divide any object in n equal parts same here but in different way like if you choose <i>horizontal symetric</i> and draw any shape or anything anywhere it will make a clone of the shape corresponding to it's in horizontally opposite to the shape drawn.And if you choose the <i>vertically symetric</i> it's make the clone of the shape vertically opposite. see the advantage of the feature given below.</h3>
+ <h2>What is horizontal and vertical symmetric and how is this make project Automatation project❓❓</h2>
+  <h3>You all have study symmetric in mathmatics that it's a way to divide any object in n equal parts same here but in different way like if you choose <i>horizontal symmetric</i> and draw any shape or anything anywhere it will make a clone of the shape corresponding to it's in horizontally opposite to the shape drawn.And if you choose the <i>vertically symmetric</i> it's make the clone of the shape vertically opposite. see the advantage of the feature given below.</h3>
 <h1>Advantages of New Feature</h1>
 <h2>1. Less effort while drawing figure😊</br>
     2. Easy to create eyes of human i.e. help  to make the eyes equidistant and same👁‍🗨👁‍🗨.</br>

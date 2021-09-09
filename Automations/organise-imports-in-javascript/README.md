@@ -10,11 +10,11 @@ This script will help you in organising your imports in javascript. It will not 
 ### Additional packages 📝
 
 
-#### But how do I install additonal packages? 🤨
+#### But how do I install additional packages? 🤨
 
 - Make sure you have **nodejs** installed on your system. If you haven't yet go to [nodejs.org](https://nodejs.org 'go to nodejs.org')
 
-- If you want to install dependecies with **npm**
+- If you want to install dependencies with **npm**
     - check for **yarn.lock**. If it is in root of directory. then DELETE **yarn.lock**
     - Now, run 'npm install'. This will install all the dependencies.
 

@@ -8,7 +8,7 @@ Thank you for choosing this repostiroy to contribute 🙂, the following documen
 2) Ensure that your code and project is in a working condition and performs its intended task.
 3) Preparing the README :
       The README file of your project must contain the following sections:
-      - **A brief discription of the project**: What task does this task automate
+      - **A brief description of the project**: What task does this task automate
       - **A Section titled Pre-requisites** : What will need to be installed on the user's system in order to get your automation running
       - **A Section titled How to use** : How to go about using your project from the end-user perspective (may as well add pictures/videos explaining them)
       - (Optional)**A "Created By" section** : This section contain information about the creator/creators of the project (you can also add link to your profile here)
@@ -36,4 +36,4 @@ updated accordingly.
 ----
 
 ## NOTE 📝: 
-If you already have an automation and just want it to apper in the [**Automation with thier own repo**](https://github.com/Arsenic-ATG/Awesome-Automations#list-of-more-cool-automations-with-their-own-repository) list, then just send a PR updating the README.md file with link to your repo in the file ( although the automation should still be contribution ready as explaind in step - 0 here )
+If you already have an automation and just want it to apper in the [**Automation with their own repo**](https://github.com/Arsenic-ATG/Awesome-Automations#list-of-more-cool-automations-with-their-own-repository) list, then just send a PR updating the README.md file with link to your repo in the file ( although the automation should still be contribution ready as explaind in step - 0 here )
