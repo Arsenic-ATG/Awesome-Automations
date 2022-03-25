@@ -1,13 +1,13 @@
+#include "enum.cpp"
 #include <cstdio>
 #include <iostream>
 #include <string>
-
-bool CheckUnitValid(std::string thisString)
+#include <cctype>
+bool CheckUnitValid(Time thisTime)
 {
-    bool check2 = true;
-    while (check2)
+    switch (thisTime)
     {
-        std::cin >> thisString;
+
     }
 }
 
@@ -25,10 +25,6 @@ bool CheckNumberValid()
     }
 }
 
-void Convert()
-{
-
-}
 
 int main()
 {
@@ -38,11 +34,27 @@ int main()
     std::string oString;
     std::string cString;
     std::string timeString;
+    Time string1;
     long double time;
     //Processing
     std::cout << "This is the Time converter.\n";
-    std::cout << "Please input the original unit of time that you want to convert.\n";
-    std::cin >> oString;
+    while (check1)
+    {
+        std::cout << "Please input the original unit of time that you want to convert.\n";
+        std::cout << "Valid inputs are: SECOND, MINUTE, DAY, WEEK, MONTH, YEAR, DECADE, CENTURY.\n";
+        std::cin >> oString;
+        std::transform(oString.begin(), oString.end(),oString.begin(), 
+                    [](unsigned char c) -> unsigned char { return std::toupper(c);});
+        string1 = convert(oString);
+        if (string1 != NULL)
+        {
+            check1 = CheckUnitValid(string1,check1);
+        }
+        else
+        {
+            check1 = true;
+        }
+    }
     std::cout << "Please input the number amount of the original that you want to convert.\n";
     CheckNumberValid();
     std::cout << "Please input the unit of time after converted.\n";
