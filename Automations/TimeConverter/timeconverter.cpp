@@ -5,21 +5,27 @@
 #include <algorithm>
 #include <cctype>
 
-bool CheckNumberValid()
+// bool CheckNumberValid()
+// {
+//     long double timeString;
+
+//     std::cin >> timeString;
+//     return true;
+//     // if (std::cin.fail())
+//     // {
+//     //     return false;
+//     // }
+//     // else
+//     // {
+//     //     return true;
+//     // }
+// }
+
+long double Convert(Time unit1, Time unit2)
 {
-    long double timeString;
-
-    std::cin >> timeString;
-    if (std::cin.fail())
-    {
-        return false;
-    }
-    else
-    {
-        return true;
-    }
+    std::cout << unit1 << "\n";
+    std::cout << unit2 << "\n";
 }
-
 
 int main()
 {
@@ -37,7 +43,7 @@ int main()
     {
         //Ask for 1st unit of time
         std::cout << "Please input the original unit of time that you want to convert.\n";
-        std::cout << "Valid inputs are: SECOND, MINUTE, DAY, WEEK, MONTH, YEAR, DECADE, CENTURY.\n";
+        std::cout << "Valid inputs are: SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, YEAR, DECADE, CENTURY.\n";
         std::cin >> originalUnit;
         std::transform(originalUnit.begin(), originalUnit.end(),originalUnit.begin(), 
                     [](unsigned char c) -> unsigned char { return std::toupper(c);});
@@ -49,14 +55,14 @@ int main()
         else
         {
             check1 = true;
-            std::cout << "You have input incorrectly. Please only input the unit of time with singular form.";
+            std::cout << "You have input incorrectly. Please only input the unit of time with singular form.\n";
         }
     }
     while (check2)
     {
         //Ask for 2nd unit of time
         std::cout << "Please input the converted unit of time that you want to convert.\n";
-        std::cout << "Valid inputs are: SECOND, MINUTE, DAY, WEEK, MONTH, YEAR, DECADE, CENTURY.\n";
+        std::cout << "Valid inputs are: SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, YEAR, DECADE, CENTURY.\n";
         std::cin >> convertedUnit;
         std::transform(convertedUnit.begin(), convertedUnit.end(), convertedUnit.begin(), 
                     [](unsigned char c) -> unsigned char { return std::toupper(c);});
@@ -68,14 +74,11 @@ int main()
         else
         {
             check2 = true;
-            std::cout << "You have input incorrectly. Please only input the unit of time with singular form.";
+            std::cout << "You have input incorrectly. Please only input the unit of time with singular form.\n";
         }
     }
-    while (check3)
-    {
-
-    }
-
+    std::cout << "Please input the amount of time you want to convert\n";
+    Convert(string1, string2);
 
     //Output
 }
