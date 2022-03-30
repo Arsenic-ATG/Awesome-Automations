@@ -1,6 +1,6 @@
 #include <string>
 
-enum Time {SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, YEAR, DECADE, CENTURY};
+enum Time {SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, YEAR, DECADE, CENTURY, NONE};
 
 Time convert(std::string thisString)
 {
@@ -13,5 +13,5 @@ Time convert(std::string thisString)
     if (thisString == "YEAR") return YEAR;
     if (thisString == "DECADE") return DECADE;
     if (thisString == "CENTURY") return CENTURY;
-    return NULL;
+    return NONE;
 }
