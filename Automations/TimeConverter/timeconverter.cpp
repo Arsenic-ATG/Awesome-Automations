@@ -4,26 +4,19 @@
 #include <string>
 #include <algorithm>
 #include <cctype>
-bool CheckUnitValid(Time thisTime)
-{
-    switch (thisTime)
-    {
-
-    }
-}
 
 bool CheckNumberValid()
 {
-    std::string timeString;
-    bool check1 = true;
-    while (check1)
+    long double timeString;
+
+    std::cin >> timeString;
+    if (std::cin.fail())
     {
-        std::cin >> timeString;
-        if (std::cin.fail())
-        {
-            std::cout << "Please input a number";
-            return false;
-        }
+        return false;
+    }
+    else
+    {
+        return true;
     }
 }
 
@@ -33,6 +26,7 @@ int main()
     //Declaration
     bool check1 = true;
     bool check2 = true;
+    bool check3 = true;
     std::string originalUnit;
     std::string convertedUnit;
     Time string1, string2;
@@ -77,8 +71,10 @@ int main()
             std::cout << "You have input incorrectly. Please only input the unit of time with singular form.";
         }
     }
-    std::cout << "Please input the number amount of the original that you want to convert.\n";
-    CheckNumberValid();
+    while (check3)
+    {
+
+    }
 
 
     //Output
