@@ -5,26 +5,26 @@
 #include <algorithm>
 #include <cctype>
 
-// bool CheckNumberValid()
-// {
-//     long double timeString;
-
-//     std::cin >> timeString;
-//     return true;
-//     // if (std::cin.fail())
-//     // {
-//     //     return false;
-//     // }
-//     // else
-//     // {
-//     //     return true;
-//     // }
-// }
-
-long double Convert(Time unit1, Time unit2)
+long double Convert(Time unit1, Time unit2, long double a)
 {
-    std::cout << unit1 << "\n";
-    std::cout << unit2 << "\n";
+    long double arr[8] = {60, 60, 24, 7, 30/7, 12, 10, 10};
+    long double temp = a;
+    if (unit1 >= unit2)
+    {
+        for (int i = unit2; i < unit1; i++)
+        {
+            temp *= arr[i];
+        }
+        return temp;
+    }
+    else if (unit1 < unit2)
+    {
+        for (int i = unit1; i < unit2; i++)
+        {
+            temp /= arr[i];
+        }
+        return temp;
+    }
 }
 
 int main()
@@ -77,8 +77,9 @@ int main()
             std::cout << "You have input incorrectly. Please only input the unit of time with singular form.\n";
         }
     }
-    std::cout << "Please input the amount of time you want to convert\n";
-    Convert(string1, string2);
+    std::cout << "Please input the original amount of time you want to convert: \n";
+    std::cin >> time;
+    std::cout << Convert(string1, string2, time);
 
     //Output
 }
