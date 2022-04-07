@@ -79,7 +79,7 @@ int main()
     }
     std::cout << "Please input the original amount of time you want to convert: \n";
     std::cin >> time;
-    std::cout << Convert(string1, string2, time);
+    std::cout << time << " " << originalUnit << " is converted to: " << Convert(string1, string2, time) << " " << convertedUnit<< ".\n";
 
     //Output
 }
