@@ -32,10 +32,9 @@ int main()
     //Declaration
     bool check1 = true;
     bool check2 = true;
-    bool check3 = true;
-    std::string originalUnit;
-    std::string convertedUnit;
-    Time string1, string2;
+    std::string string1;
+    std::string string2;
+    Time originalUnit, convertedUnit;
     long double time;
     //Processing
     std::cout << "This is the Time converter.\n";
@@ -44,11 +43,11 @@ int main()
         //Ask for 1st unit of time
         std::cout << "Please input the original unit of time that you want to convert.\n";
         std::cout << "Valid inputs are: SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, YEAR, DECADE, CENTURY.\n";
-        std::cin >> originalUnit;
-        std::transform(originalUnit.begin(), originalUnit.end(),originalUnit.begin(), 
+        std::cin >> string1;
+        std::transform(string1.begin(), string1.end(),string1.begin(), 
                     [](unsigned char c) -> unsigned char { return std::toupper(c);});
-        string1 = convert(originalUnit);
-        if (string1 != NONE)
+        originalUnit = convert(string1);
+        if (originalUnit != NONE)
         {
             check1 = false;
         }
@@ -63,11 +62,11 @@ int main()
         //Ask for 2nd unit of time
         std::cout << "Please input the converted unit of time that you want to convert.\n";
         std::cout << "Valid inputs are: SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, YEAR, DECADE, CENTURY.\n";
-        std::cin >> convertedUnit;
-        std::transform(convertedUnit.begin(), convertedUnit.end(), convertedUnit.begin(), 
+        std::cin >> string2;
+        std::transform(string2.begin(), string2.end(), string2.begin(), 
                     [](unsigned char c) -> unsigned char { return std::toupper(c);});
-        string2 = convert(convertedUnit);
-        if (string2 != NONE)
+        convertedUnit = convert(string2);
+        if (convertedUnit != NONE)
         {
             check2 = false;
         }
@@ -79,7 +78,7 @@ int main()
     }
     std::cout << "Please input the original amount of time you want to convert: \n";
     std::cin >> time;
-    std::cout << time << " " << originalUnit << " is converted to: " << Convert(string1, string2, time) << " " << convertedUnit<< ".\n";
+    std::cout << time << " " << string1 << " is converted to: " << Convert(originalUnit, convertedUnit, time) << " " << string2 << ".\n";
 
     //Output
 }
