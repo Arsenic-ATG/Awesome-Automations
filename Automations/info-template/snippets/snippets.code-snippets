@@ -1,0 +1,25 @@
+{
+    "File Information Template": {
+        "prefix": "!fit",
+        "body": [
+            "//*****************************************************",
+            "// File Name    :${1:MyFile}",
+            "// Author       :",
+            "// Last Updated :",
+            "//*****************************************************"
+        ],
+        "description": "Inserts File Information Template to fill in details."
+    },
+    "Method Information Template": {
+        "prefix": "!mit",
+        "body": [
+            "//*****************************************************",
+            "// Method name :${1:MyMethod}",
+            "// Return type :",
+            "// Parameters  :",
+            "// Note        :",
+            "//*****************************************************"
+        ],
+        "description": "Inserts Method Information Template to fill in details."
+    }
+}
