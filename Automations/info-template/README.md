@@ -33,8 +33,12 @@ Method Information template:
 
 ````
 
-### 1.0.0
+### 1.0.1
 
 Initial release of Info Template.
+
+You can use it from https://marketplace.visualstudio.com/items?itemName=pjayakrishnan.info-template .
+
+Made by: [Jayakrishnan.P](https://github.com/PJayakrishnan)
 
 **Enjoy!**
