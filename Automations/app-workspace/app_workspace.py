@@ -3,7 +3,6 @@ import os
 import json
 import argparse
 
-
 parser = argparse.ArgumentParser()
 parser.add_argument("-s", "--save", help="Path to save workspace")
 parser.add_argument("-p", "--path", help="Path to load workspace")
@@ -19,7 +18,6 @@ if args.save:
     paths = []
     for i, line in enumerate(proc.stdout):
         if line.rstrip():
-            # only print lines that are not empty
             # decode() is necessary to get rid of the binary string (b')
             # rstrip() to remove `\r\n`
             path = line.decode().rstrip()
@@ -46,10 +44,8 @@ if args.path:
     # Load paths and launch programs
     paths = json.load(open(args.path))
     for path in paths:
-        # Ignore windows related programs
-        # if args.windows and "windows" in path.lower():
-        #     continue
         try:
+            # Open app in new process and detach
             subprocess.Popen([path], stderr=subprocess.STDOUT,
                              stdout=subprocess.PIPE)
         except Exception:
