@@ -8,7 +8,7 @@ This program will help you save valuable time by saving all your running apps to
 - pyvda
 - pyautogui
 
-#### But how do I install additonal packages? 🤨
+#### But how do I install additional packages? 🤨
 
 - Make sure you have python package manager (**pip**) installed on your system
 - Go to command line and type ```pip install <library name>``` { _pip3_ on mac }
