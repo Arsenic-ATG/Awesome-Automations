@@ -110,7 +110,7 @@ The Currency Converter is a program written in C++ that automates the process of
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## Lisence 
-All the rights of this currency converter belongs to (https://github.com/CodeCinnamon001) [CodeCinnamon001]
+All the rights of this currency converter belongs to [CodeCinnamon001](https://github.com/CodeCinnamon001) 
 
 ## Acknowledgements
 
