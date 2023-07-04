@@ -91,9 +91,7 @@ The Currency Converter is a program written in C++ that automates the process of
    - Euro (EUR)
    - British Pound (GBP)
    - Japanese Yen (JPY)
-   -
-
- Canadian Dollar (CAD)
+   - Canadian Dollar (CAD)
    - Australian Dollar (AUD)
    - Swiss Franc (CHF)
    - Chinese Yuan Renminbi (CNY)
