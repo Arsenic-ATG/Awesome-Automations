@@ -6,16 +6,16 @@
   
 ---
 
-> Who likes to do those useless ,old and time consuming tasks manually when you can automate them.
+> Who likes to do those useless, old and time consuming tasks manually when you can automate them?
 
 This repository is full of automations that will make some tedious daily tasks easier and faster.
 
-## language used till now
+## Languages used until now
 - Python
 - C++
-- Java Script
+- JavaScript
 
-( contributions accepted in all languages)
+(Contributions accepted in all languages.)
 
 ## Some Notable Projects: 🧐
 1. [Multiclipboard](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/Multiclipboard)
@@ -24,12 +24,12 @@ This repository is full of automations that will make some tedious daily tasks e
 4. [Automated Github-login](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/login-github)
 5. [Automated process of creating a new project with GitHub](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/github-create-repo)
 6. [Paint With UG](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/Paint%20With%20UG)
-## List of more cool Automations with their own repository
+## List of more cool Automations with their own repositories
 1. 🌐 [Map-It](https://github.com/Arsenic-ATG/Map-It)
 2. 🌐 [“I’m feeling lucky” google Search](https://github.com/Arsenic-ATG/I-am-Feeling-Lucky)
 3. 🌐 [Download all xkcd-comics](https://github.com/Arsenic-ATG/xkcd-comics)
 
-## Have got an boring task to automate ? 😃
+## Have you got a boring task to automate? 😃
 Go ahead and share that idea using the [issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section of this repository by creating a new issue, If you are willing to contribute an automation then head over to [contribution.md](https://github.com/Arsenic-ATG/Awesome-Automations/blob/master/CONTRIBUTING.md) to see the procedure to contribute one.
 
 ## I want to contribute to this repository 🤩
@@ -40,11 +40,11 @@ There are many ways to contribute to this repository :-
 - Contributing to **documentation** 📄:- If you find something is not correct or you could have done better in documentation including this readme or any project readme then you are most welcome to open an pull request or issue regarding the same.
 - **Somehing else**:- You can go ahead and look for something to work in [Issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section of the repo to find something to work upon
 
-## Any problem/Questions ? 🤔 
+## Any problems/questions? 🤔 
 1) Head over to [issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues) section of the repo.
 2) Open a new issue regarding the same.
 
-## Don't forget to give this repository a star ⭐️ if you like these automation 😅.
+## Don't forget to give this repository a star ⭐️ if you like these automations! 😅
 
 ## Contributors ✨
 
