@@ -10,7 +10,7 @@
 
 This repository is full of automations that will make some tedious daily tasks easier and faster.
 
-## language used till now
+## Languages used until now
 - Python
 - C++
 - JavaScript
