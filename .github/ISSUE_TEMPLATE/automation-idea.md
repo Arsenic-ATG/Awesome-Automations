@@ -4,7 +4,6 @@ about: Share a new Idea about an Automation
 title: ''
 labels: Idea, enhancement
 assignees: ''
-
 ---
 
 ## Idea 💡: -

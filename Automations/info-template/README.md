@@ -10,20 +10,20 @@ For example type `!fit` and then `Tab` to insert a File Information template.
 
 File Information template:
 
-````
+```
 //*****************************************************
 // File Name    :
 // Author       :
 // Last Updated :
 //*****************************************************
 
-````
+```
 
 You can also type `!mit` and then `Tab` to insert a Method Information template.
 
 Method Information template:
 
-````
+```
 //*****************************************************
 // Method name :
 // Return type :
@@ -31,7 +31,7 @@ Method Information template:
 // Note        :
 //*****************************************************
 
-````
+```
 
 ### 1.0.1
 

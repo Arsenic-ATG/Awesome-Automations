@@ -11,9 +11,9 @@ This program will help you save valuable time by saving all your running apps to
 #### But how do I install additional packages? 🤨
 
 - Make sure you have python package manager (**pip**) installed on your system
-- Go to command line and type ```pip install <library name>``` { _pip3_ on mac }
+- Go to command line and type `pip install <library name>` { _pip3_ on mac }
 - For detailed information see [python's official tutorial on how to install packages](https://packaging.python.org/tutorials/installing-packages/)
-- You can also easily install all required package with a single command ```pip install -r requirements.txt``` { _pip3_ on mac }
+- You can also easily install all required package with a single command `pip install -r requirements.txt` { _pip3_ on mac }
 
 ### But how to use this program ? 💻
 

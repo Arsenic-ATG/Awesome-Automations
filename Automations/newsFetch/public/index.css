@@ -1,47 +1,47 @@
-:root{
-    --primary: #00f;
-    --primaryHover: rgb(4, 27, 102);
+:root {
+  --primary: #00f;
+  --primaryHover: rgb(4, 27, 102);
 }
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    padding: 0.75rem;
-    text-transform: capitalize;
-    text-align: center;
+h1 {
+  padding: 0.75rem;
+  text-transform: capitalize;
+  text-align: center;
 }
 
-form{
-    margin: 0.75rem;
-    padding: 00.75rem;
+form {
+  margin: 0.75rem;
+  padding: 00.75rem;
 }
 
 fieldset {
-    padding: 00.75rem;
+  padding: 00.75rem;
 }
 
-button{
-    padding: 00.75rem;
-    border-radius: 00.75rem;
-    margin: 00.75rem;
-    outline: none;
-    border: none;
-    cursor: pointer;
+button {
+  padding: 00.75rem;
+  border-radius: 00.75rem;
+  margin: 00.75rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
-.btn-primary{
-    background-color: var(--primary);
-    color: #fff;
+.btn-primary {
+  background-color: var(--primary);
+  color: #fff;
 }
 
 .btn-primary:hover {
-    background-color: var(--primaryHover);
+  background-color: var(--primaryHover);
 }
