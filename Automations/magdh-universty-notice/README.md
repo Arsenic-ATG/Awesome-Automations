@@ -42,5 +42,4 @@ npm start
 
 You should `nodejs` installed in your device.
 
-If You haven't yet go to [nodejs org](https://nodejs.org, "Go to nodejs.org")
-
+If You haven't yet go to [nodejs org](https://nodejs.org, 'Go to nodejs.org')

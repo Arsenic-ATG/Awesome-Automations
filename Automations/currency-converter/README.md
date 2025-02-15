@@ -1,4 +1,3 @@
-
 # Currency Converter
 
 The Currency Converter is a program written in C++ that automates the process of converting currencies. It uses an external library, `libcurl`, for making HTTP requests to retrieve currency exchange rates from an API.
@@ -107,11 +106,15 @@ The Currency Converter is a program written in C++ that automates the process of
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-## License 
-All the rights of this currency converter belongs to [CodeCinnamon001](https://github.com/CodeCinnamon001) 
+## License
+
+All the rights of this currency converter belongs to [CodeCinnamon001](https://github.com/CodeCinnamon001)
 
 ## Acknowledgements
 
 - The project utilizes the `libcurl` library for making HTTP requests to retrieve currency exchange rates.
 - Special thanks to nlohmann for providing the JSON library used in this project (https://github.com/nlohmann/json).
+
+```
+
 ```

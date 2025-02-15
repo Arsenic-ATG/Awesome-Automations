@@ -4,23 +4,23 @@ Say you have the boring task of filling out many forms in a web page or software
 
 Here’s what the program does:
 
- - [x] The command line argument for the keyword is checked
- 
- - [x] If the argument is save, then the clipboard contents are saved to the key word
- 
- - [x] If the argument is list, then all the keywords are copied to the clipboard
- 
- - [x] Otherwise, the text for the keyword is copied to the keyboard
+- [x] The command line argument for the keyword is checked
 
- - [x] ```delete <keyword>``` command to delete a specific keyword
- 
- - [x] ```delete``` command line argument that will delete all the keywords
+- [x] If the argument is save, then the clipboard contents are saved to the key word
+
+- [x] If the argument is list, then all the keywords are copied to the clipboard
+
+- [x] Otherwise, the text for the keyword is copied to the keyboard
+
+- [x] `delete <keyword>` command to delete a specific keyword
+
+- [x] `delete` command line argument that will delete all the keywords
 
 ## But how to use this program ? 🧐
 
 - The program has to run with some command line arguments with it.
 
 - The following is the list of keywords supported by the program:
-  - ```py mcb.py save <keyword>```: when you run ```py mcb.py save spam```, the current contents of the clipboard will be saved with the keyword **spam**
-  - ```py mcb.pyw <keyword>``` : to load the **saved** keyword on the clipboard (for example *spam* in this case) just use ```py mcb.pyw spam```
-  - ```py mcb.pyw list``` : if the user forgets what keywords they have, they can run ```py mcb.pyw list``` to copy a list of all keywords to the clipboard
+  - `py mcb.py save <keyword>`: when you run `py mcb.py save spam`, the current contents of the clipboard will be saved with the keyword **spam**
+  - `py mcb.pyw <keyword>` : to load the **saved** keyword on the clipboard (for example _spam_ in this case) just use `py mcb.pyw spam`
+  - `py mcb.pyw list` : if the user forgets what keywords they have, they can run `py mcb.pyw list` to copy a list of all keywords to the clipboard

@@ -1,53 +1,52 @@
 //jshint esversion:6
-const path = require("path");
-const express = require("express");
-const request = require("request");
+const path = require('path')
+const express = require('express')
+const request = require('request')
 
-const app = express();
-const port = process.env.PORT || 3000;
+const app = express()
+const port = process.env.PORT || 3000
 
-require("dotenv").config();
+require('dotenv').config()
 
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.urlencoded({ extended: true }))
+app.use(express.static(path.join(__dirname, 'public')))
 
-app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/index.html");
-});
+app.get('/', function (req, res) {
+	res.sendFile(__dirname + '/index.html')
+})
 
-app.post("/", function (req, res) {
-  const id = req.body.country;
-  const api = process.env.API_KEY;
-  const url = "https://newsapi.org/v2/top-headlines?country=" + id + "&apiKey=" + api + " ";
+app.post('/', function (req, res) {
+	const id = req.body.country
+	const api = process.env.API_KEY
+	const url = 'https://newsapi.org/v2/top-headlines?country=' + id + '&apiKey=' + api + ' '
 
-  request(url, { json: true }, function (err, response, body) {
-    res.setHeader("Content-Type", "text/html");
-    if (body.totalResults > 0) {
-      if (!err && response.statusCode) {
-        for (let i = 0; i < 10; i++) {
-          let image = body.articles["" + i].urlToImage;
+	request(url, { json: true }, function (err, response, body) {
+		res.setHeader('Content-Type', 'text/html')
+		if (body.totalResults > 0) {
+			if (!err && response.statusCode) {
+				for (let i = 0; i < 10; i++) {
+					let image = body.articles['' + i].urlToImage
 
-          res.write("<h2><b>" + (i + 1) + ".  " + body.articles["" + i].title + "</b></h2><br>");
-          res.write(body.articles["" + i].description + "<br>");
-          res.write(body.articles["" + i].content + "<br>");
-          res.write("<img src =" + image + " width= 200 ><br><br>");
-          res.write("<p>Time: " + body.articles["" + i].publishedAt + "</p>");
-          res.write("<a href=\"" + body.articles["" + i].url + "\">Details</a>");
-        }
-      }
-      res.send();
-    }
-    else {
-      res.send("Unable to find news from " + id + " country.");
-    }
-  });
-});
+					res.write('<h2><b>' + (i + 1) + '.  ' + body.articles['' + i].title + '</b></h2><br>')
+					res.write(body.articles['' + i].description + '<br>')
+					res.write(body.articles['' + i].content + '<br>')
+					res.write('<img src =' + image + ' width= 200 ><br><br>')
+					res.write('<p>Time: ' + body.articles['' + i].publishedAt + '</p>')
+					res.write('<a href="' + body.articles['' + i].url + '">Details</a>')
+				}
+			}
+			res.send()
+		} else {
+			res.send('Unable to find news from ' + id + ' country.')
+		}
+	})
+})
 
 app.use(function (req, res, next) {
-  res.status(404);
-  res.sendFile(__dirname + "/404.html");
-});
+	res.status(404)
+	res.sendFile(__dirname + '/404.html')
+})
 
 app.listen(port, function () {
-  console.log("server is running on http://localhost:" + port);
-});
+	console.log('server is running on http://localhost:' + port)
+})

@@ -4,36 +4,38 @@ Thank you for choosing this repostiroy to contribute 🙂, the following documen
 
 ### Step 0: Making your project contribution ready
 
-1) Ensuring the readiness of your code/project
-2) Ensure that your code and project is in a working condition and performs its intended task.
-3) Preparing the README :
-      The README file of your project must contain the following sections:
-      - **A brief description of the project**: What task does this task automate
-      - **A Section titled Pre-requisites** : What will need to be installed on the user's system in order to get your automation running
-      - **A Section titled How to use** : How to go about using your project from the end-user perspective (may as well add pictures/videos explaining them)
-      - (Optional)**A "Created By" section** : This section contain information about the creator/creators of the project (you can also add link to your profile here)
-      
+1. Ensuring the readiness of your code/project
+2. Ensure that your code and project is in a working condition and performs its intended task.
+3. Preparing the README :
+   The README file of your project must contain the following sections:
+   - **A brief description of the project**: What task does this task automate
+   - **A Section titled Pre-requisites** : What will need to be installed on the user's system in order to get your automation running
+   - **A Section titled How to use** : How to go about using your project from the end-user perspective (may as well add pictures/videos explaining them)
+   - (Optional)**A "Created By" section** : This section contain information about the creator/creators of the project (you can also add link to your profile here)
+
 **You can also use one of the [readme templates](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/.readmeTeplates) available here.** (if you didn't find your chosen programming language then you can post it in [this issue](https://github.com/Arsenic-ATG/Awesome-Automations/issues/18) regarding the same or go an extra mile and add it yoursef if you want to )
 
 ### Step 1: Contributing an Automation
 
-1) Look for an existing open [issue](#issues) to work upon or create a new one explaining your idea (just make sure an issue exist before opening a new pull request)
+1.  Look for an existing open [issue](#issues) to work upon or create a new one explaining your idea (just make sure an issue exist before opening a new pull request)
 
-2) [Fork repository](https://github.com/Arsenic-ATG/Awesome-Automations) (💡bonus tip: don't work on main branch of your fork)
+2.  [Fork repository](https://github.com/Arsenic-ATG/Awesome-Automations) (💡bonus tip: don't work on main branch of your fork)
 
-3) Copy/create project into the forked repo under the ['Automation'](Automations/) folder
+3.  Copy/create project into the forked repo under the ['Automation'](Automations/) folder
 
-4) Create a **Pull Request** : 
+4.  Create a **Pull Request** :
 
     Create a [pull request](#pull-request) with proper description to merge your changes into the main repo ( the one hoted by [Arsenic](https://github.com/Arsenic-ATG) )
 
-5) Keep track of your pull request : 
+5.  Keep track of your pull request :
 
-    That’s it!🎉 Wait for your pull request to be approved and merged. If there are any discrepancies, an admin
-will add a comment requesting you to make the necessary changes and your pull request will have to be
-updated accordingly.
+        That’s it!🎉 Wait for your pull request to be approved and merged. If there are any discrepancies, an admin
 
-----
+    will add a comment requesting you to make the necessary changes and your pull request will have to be
+    updated accordingly.
 
-## NOTE 📝: 
+---
+
+## NOTE 📝:
+
 If you already have an automation and just want it to apper in the [**Automation with their own repo**](https://github.com/Arsenic-ATG/Awesome-Automations#list-of-more-cool-automations-with-their-own-repository) list, then just send a PR updating the README.md file with link to your repo in the file ( although the automation should still be contribution ready as explaind in step - 0 here )
