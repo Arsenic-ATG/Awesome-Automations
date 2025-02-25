@@ -20,7 +20,7 @@ The Base Converter is a program written in C++ that allows users to convert numb
 
 2. Navigate into the Number_Base_Converter folder.
 
-3. Run "number_base_converter.exe" or compile it yourself by opening the commandline in the folder and follow the next step.
+3. Open the commandline in the folder.
 
 4. Compile the program using the following command (number_base_converter can be any name you want the Programm to have):
 
