@@ -55,6 +55,8 @@ This repository is full of automations that will make some tedious daily tasks e
 | 22    | News Fetch                 | Python        | @youhaveme9              | [link](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/newsFetch-python)                   |
 | 23    | News Fetch                 | HTML-CSS-JS   | @piyush4for, @vivek80801 | [link](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/newsFetch)                          |
 | 24    | News Fetch                 | Javascript    | @vivek80801              | [link](https://github.com/Arsenic-ATG/Awesome-Automations/tree/master/Automations/organise-imports-in-javascript)     |
+| 25    | Agent Shadow Brain         | TypeScript    | @theihtisham             | [link](https://github.com/theihtisham/agent-shadow-brain)                                                               |
+| 26    | Omni Skills Forge           | TypeScript    | @theihtisham             | [link](https://github.com/theihtisham/omni-skills-forge)                                                                 |
 
 ## List of more cool Automations with their own repositories
 
