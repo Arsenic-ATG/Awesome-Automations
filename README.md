@@ -62,6 +62,7 @@ This repository is full of automations that will make some tedious daily tasks e
 2. 🌐 [“I’m feeling lucky” google Search](https://github.com/Arsenic-ATG/I-am-Feeling-Lucky)
 3. 🌐 [Download all xkcd-comics](https://github.com/Arsenic-ATG/xkcd-comics)
 - [n8n Uptime Ping Alert](https://github.com/DeusAcc/n8n-uptime-ping-alert) - checks a site every 5 minutes and alerts on Telegram only on state change (up/down).
+- [n8n Uptime Ping Alert](https://github.com/DeusAcc/n8n-uptime-ping-alert) - checks a site every 5 minutes and alerts on Telegram only on state change (up/down).
 
 ## Have you got a boring task to automate? 😃
 
